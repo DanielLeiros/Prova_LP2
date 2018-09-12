@@ -71,7 +71,7 @@ class doubleLinkedList():
 		temp = primeiro.data
 		primeiro.data = segundo.data
 		segundo.data = temp
-
+		
 	def shift(self):
 		if self.size <= 1:
 			self.head.nextN = None
